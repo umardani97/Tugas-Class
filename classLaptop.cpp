@@ -8,7 +8,7 @@ class Laptop{
 	string nama, cpu;
 };
 
-int main{
+int main(){
 	Laptop Asus, Acer;
 	
 	Acer.nama = "Laptop Acer E14";
@@ -26,4 +26,6 @@ int main{
 	
 }
 
-
+void Laptop::spec(string Ghz){
+	cout<<"Spec"<<Ghz<<"Imba"<<endl;
+}
